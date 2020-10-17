@@ -3,11 +3,12 @@ C++ Implementation of a 3-Ary Heap
 
 The programs reads inputFile.txt for operations to be performed on the heap.
 
-Command IN: Inserts a element into the 3-ary heap
+## Commands
+### Command IN: Inserts a element into the 3-ary heap
 
-Command EM: Extracts the minimum element from the 3-ary heap
+### Command EM: Extracts the minimum element from the 3-ary heap
 
-Command DK: Decreases the value of the element at position 5 to a given value
+### Command DK: Decreases the value of the element at position 5 to a given value
 
 
 ## Sample
