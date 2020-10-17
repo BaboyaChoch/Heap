@@ -1,6 +1,6 @@
 # C++ Array Based Implementation of a 3-Ary Heap
 
-This code uses array based implementation to create a heap, and allows us to perform 3  basic heap operations ( insert, extract min, and decrease key).
+This code utilizes array based implementation to create a heap, and allows the user to perform three  basic heap operations ( insert, extract min, and decrease key).
 The program reads commands an inputFile, inputFile.txt,  for operations to be performed on the heap.
 
 ## Commands
