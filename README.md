@@ -14,7 +14,7 @@ Command DK: Decreases the value of the element at position 5 to a given value
 
 > IN 10
 
-> > [ 10 ]
+[ 10 ]
 
 > IN 15
 
@@ -36,6 +36,6 @@ Command DK: Decreases the value of the element at position 5 to a given value
 
 > EM
 
-![sample output]()
+
 
 
