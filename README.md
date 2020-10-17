@@ -13,7 +13,9 @@ Command DK: Decreases the value of the element at position 5 to a given value
 ## Sample
 
 > IN 10
+
 > > [10]
+
 > IN 15
 
 > IN 27
