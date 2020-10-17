@@ -12,6 +12,7 @@ Command DK: Decreases the value of the element at position 5 to a given value
 
 ## Sample
 
+```cpp
 > IN 10 [ 10 ]
 
 > IN 15 [ 10 15 ]
@@ -26,12 +27,13 @@ Command DK: Decreases the value of the element at position 5 to a given value
 
 > IN 5 [ 5 11 15 13 27 ]
 
-> IN 6 [ 5 6 15 13 27 11 ] 
+IN 6 [ 5 6 15 13 27 11 ] 
 
-> DK 5 4 [ 4 5 15 13 27 6]
+DK 5 4 [ 4 5 15 13 27 6]
 
-> IN 3 [ 3 4 15 13 27 6 5 ]
+IN 3 [ 3 4 15 13 27 6 5 ]
 
-> EM Minimum: 3 [ 4 5 15 13 27 6 ]
+EM Minimum: 3 [ 4 5 15 13 27 6 ]
+```
 
 
