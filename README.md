@@ -11,7 +11,7 @@ The program reads commands an inputFile, inputFile.txt,  for operations to be pe
 * Command DK: Decreases the value of the element at position 5 to a given value
 
 
-## Sample Output
+## Sample Output based on InputFile.txt
 
 ```python
 
