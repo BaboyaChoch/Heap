@@ -13,7 +13,7 @@ The program reads commands an inputFile, inputFile.txt,  for operations to be pe
 
 ## Sample Output 
 
-```cpp
+```python
 
 IN 10   # [ 10 ]
 
