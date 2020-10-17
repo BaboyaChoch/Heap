@@ -20,7 +20,7 @@ int heapSize = -1; //size of the heap
 void printHeap(int); // prints the heap array
 void insert(int);  // inserts an element to the heap
 void decreaseKey(int, int); // Decrease Key of the element at array position x to value y
-void extractMin(); // returns the root which is the main
+void extractMin(); // returns the root, which is the min
 void floatUp(int); //moves an element up the tree if it is smaller than its parent
 void sinkDown(int);  // moves an element down the tree if its greater than its children
 
@@ -37,10 +37,14 @@ int main()
     int index;
     int indexOfSpace;
 
-
+    // a loop used to read the inputFile for commands to performed on the geap
+    // IN command: invokes insert
+    // EM command: invokes extractMin
+    // Dk command: invokes decreaseKey
     while(readFile >> inputCommand)
     {
     
+        // case 1: insert
         if(inputCommand == "IN")
         {
             readFile >> inputCommand;
@@ -48,11 +52,13 @@ int main()
             insert(element);
             cout<<endl; 
         }
+        //case 2: extract min
         else if (inputCommand == "EM")
         {
             extractMin();
             cout<<endl; 
         }
+        //case 3 decrease key
         else if (inputCommand == "DK")
         {
             readFile >> inputCommand;
