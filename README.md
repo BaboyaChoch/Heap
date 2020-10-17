@@ -36,6 +36,6 @@ Command DK: Decreases the value of the element at position 5 to a given value
 
 > EM
 
-![](http://prntscr.com/v1ehr6)
+![sample output](http://prntscr.com/v1ehr6)
 
 
