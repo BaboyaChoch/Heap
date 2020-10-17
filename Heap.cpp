@@ -12,7 +12,6 @@ using namespace std;
 const int MAX_SIZE = 100; // max array size
 
 int heap[MAX_SIZE]; // the heap
-int lastMin; // minium from last EM operation
 int heapSize = -1; //size of the heap
 
 
@@ -74,7 +73,6 @@ int main()
             
         } 
     }
-    print(lastMin);
 }
 
 
@@ -104,7 +102,6 @@ void decreaseKey(int index, int element)
 void extractMin()
 {
     std::cout <<"Minimum:"<<heap[0]<<std::endl; 
-    lastMin = heap[0];
     heap[0] = heap[heapSize--];
     sinkDown(0);
     printHeap(); 
