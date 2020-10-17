@@ -4,11 +4,11 @@ This code uses array based implementation to create a heap and perform 3  basic 
 The program reads commands an inputFile, inputFile.txt,  for operations to be performed on the heap.
 
 ## Commands
-* Command IN: Inserts a element into the 3-ary heap
+* Command IN:   Inserts a element into the 3-ary heap
 
-* Command EM: Extracts the minimum element from the 3-ary heap
+* Command EM:   Extracts the minimum element from the 3-ary heap
 
-* Command DK: Decreases the value of the element at position 5 to a given value
+* Command DK:   Decreases the value of the element at position 5 to a given value
 
 
 ## Sample Output 
